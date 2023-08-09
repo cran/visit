@@ -72,10 +72,9 @@ summary(scenario);
 ```
 
 ```{r, eval = TRUE, echo = TRUE, fig.height = 4, fig.width = 8}
-oldpar <- par(mfrow = c(1,2));
+par(mfrow = c(1,2));
 plot(scenario, draw.curves = 1:2, main = "Marginal DLT Risk and Response Rates");
 plot(scenario, draw.curves = 3:6, main = "Joint DLT Risk and Response Rates");
-par(oldpar);
 ```
 
 ## Incorporate Prior Knowledge and Specify Priors

@@ -13,7 +13,7 @@ Call Shiny to run \code{visit} as a web-based application.
 A web browser will be brought up for users to access the GUI of \code{\link{visit}}.
 }
 \examples{
-if(interactive()){
+\dontrun{
 vtShiny()}
 
 }
